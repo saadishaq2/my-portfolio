@@ -486,6 +486,38 @@ input::placeholder, textarea::placeholder{color:#8ea6d6}
     position: static;   /* remove absolute on mobile */
     margin-top: 12px;
   }
+  .hero{
+       /* margin-right: 60%; */
+       
+      }
+
+  .hero h4 , .subtitle{
+    font-size: 1.5rem;
+
+
+  }
+  .hero-art{
+        min-height:150px;
+        padding-left:40px ;
+        padding-top: 80px;
+  }
+  .chip{
+    height: 130px;
+    width: 280px;
+    padding-left:20px;
+  }
+  .dot-left{
+     margin-bottom: -215px;
+     margin-left: 75px;
+  }
+  .dot-right{
+    margin-right: 100px;
+    margin-top: 270px;
+  }
+  .display{
+      padding-left: 3rem;
+  }
+ 
 }
 
   /* #contact{display: flex;} */
