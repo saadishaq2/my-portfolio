@@ -518,8 +518,12 @@ input::placeholder, textarea::placeholder{color:#8ea6d6}
     height:150px;
    }
   .edu-degree{
-      font-size: 14px;
-     }
+    font-size: 14px;
+   }
+   .edu-university{
+    padding-left: 1rem;
+   }
+  
 
   /* #contact{display: flex;} */
 
