@@ -458,6 +458,9 @@ input::placeholder, textarea::placeholder{color:#8ea6d6}
   .side-label {
     display: none;
   }
+  .edu-university{
+    padding-left: 1rem;
+   }
 }
 
 
@@ -470,6 +473,9 @@ input::placeholder, textarea::placeholder{color:#8ea6d6}
   .display{font-size:2.4rem}
   .h2{font-size:1.75rem}
   .contact-section{left: 0%;}
+  .edu-university{
+    padding-left: 1rem;
+   }
 }
 @media (max-width: 640px){
   .nav-toggle{display:block}
