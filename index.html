@@ -1,0 +1,379 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Saad Ishaq</title>
+  <meta name="description" content="Full Stack Developer & Software Engineer — portfolio of Saad Ishaq" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<!-- Add email service through emailjs API  -->
+<script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init({
+        publicKey: "AO03Nr6QV4LtHSMMK",
+      });
+     })();
+</script>
+
+
+
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav" aria-label="Primary">
+      <a class="brand" href="#home">Saad Ishaq</a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <ul id="nav-menu" class="nav-menu">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="home">
+    <!-- Hero -->
+    <section class="section hero">
+      <div class="container grid-2">
+        <div>
+          <p class="eyebrow">Hello,</p>
+          <h4 class="display">This is <span class="subtitle"> Saad Ishaq</span>,I'm a professional <span class="subtitle"> Software Developer.</span></h4>
+          <!-- <p class="lead">
+            Passionate software developer with expertise in web development, system design, and creating innovative
+            solutions. Currently pursuing Computer Science at IIUI with hands-on experience in modern technologies and frameworks.
+          </p> -->
+          <div class="cta-row">
+            <a class="btn btn-primary" href="#projects">View My Work</a>
+            <a class="btn btn-ghost" href="assets/SaadIshaq_Webdeveloper_Internship.pdf" download>Download CV</a>
+          </div>
+          <div class="socials" aria-label="Social links">
+            <a href="mailto:chsaadishaq857@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/saadishaq2" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/saad-ishaq-web-developer/" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="hero-art" aria-hidden="true">
+          <div class="chip"><span class="user-icon" aria-hidden="true"></span></div>
+          <div class="dot dot-left"></div>
+          <div class="dot dot-right"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="h2 center">About</h2>
+        <p class="center sub">
+          Software Engineer with strong expertise in full-stack development and AI Automation.
+        </p>
+
+        <div class="about-grid">
+          <img class="headshot" src="assets/saad-headshot.jpg" alt="Headshot of Saad Ishaq" />
+
+          <div class="about-text">
+            
+            <p>
+            
+              I'm a professional Software Engineer with a passion for full-stack development. I specialize in building modern web applications,
+              desktop systems, and innovative solutions using technologies like React.js, Node.js, Java, and Python.I'm also currently exploring AI Automation.
+            </p>
+            <p>
+              My experience includes developing enterprise-level systems like the Smart File Tracking System
+              that improved efficiency by 60% across university departments. I'm constantly learning new technologies
+              and enjoy creating solutions that solve real-world problems.
+            </p>
+
+            <div class="kvp">
+              <!-- <div><span class="k">Education</span><span class="v">BS Software Engineer(IIUI)</span></div> -->
+              <div><span class="k">Projects</span><span class="v">5+ Completed</span></div>
+              <!-- <div><span class="k">Technologies</span><span class="v">Full Stack</span></div> -->
+              <div><span class="k">Focus</span><span class="v">Web Dev, AI Automation</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class="section skills">
+      <div class="container">
+        <h2 class="h2 center">Skills & Technologies</h2>
+        <p class="center sub">Here are the technologies and tools I work with to bring ideas to life.</p>
+
+        <ul class="chip-grid" role="list">
+          <li>JavaScript (ES6+)</li><li>React.js</li><li>Python</li><li>C++</li><li>SQL</li>
+          <li>HTML</li><li>CSS</li><li>Node.js</li>
+          <li>Express</li><li>Redux</li><li>MongoDB</li><li>MySQL</li><li>Machine Learning</li>
+          <li>Git & Github</li><li>VS Code</li><li>Android Studio</li><li>Eclipse</li>
+          <li>Azure</li><li>RESTful APIs</li><li>Agile/Scrum</li>
+          <li>UI/UX Design</li>
+        </ul>
+      </div>
+    </section>
+
+  
+    <!-- Projects -->
+<section id="projects" class="section projects">
+  <div class="container">
+    <h2 class="h2 center">Featured Projects</h2>
+    <p class="center sub">
+      A showcase of my recent work and the technologies I've used to build them.
+    </p>
+
+    <div class="cards">
+      <!-- Project 1 -->
+      <article class="card">
+        <h3 class="h3">Smart File Tracking System</h3>
+
+        <!-- Image Slider -->
+        <div class="card-slider">
+          <div class="slides">
+            <img src="assets/Sfts Main.png" alt="Smart File Tracking Screenshot 1">
+            <img src="assets/sfts user creation.png" alt="Smart File Tracking Screenshot 2">
+            <img src="assets/sfts PO.png" alt="Smart File Tracking Screenshot 3">
+            <img src="assets/sfts FO.png" alt="Smart File Tracking Screenshot 4">
+          </div>
+          
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+          <div class="dots"></div>
+        </div>
+
+        <p>
+          Built a web-based Smart File Tracking System that reduced file processing time by 60% across IIUI departments.
+          Features real-time notifications, role-based access control, and audit trails.
+        </p>
+        <div class="tag-row">
+          <span>React.js</span><span>Node.js</span><span>Redux</span><span>MongoDB</span>
+        </div>
+        <div class="card-actions">
+          <a class="btn btn-ghost" href="https://github.com/saadishaq2/Smart-File-Tracker-IIUI">Code</a>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="card">
+        <h3 class="h3">Customer Management System</h3>
+
+        <div class="card-slider">
+          <div class="slides">
+            <img src="assets/CMS 1.png" alt="CMS Screenshot 1">
+            <img src="assets/CMS 2.png" alt="CMS Screenshot 2">
+            <img src="assets/CMS 3.png" alt="CMS Screenshot 3">
+            <img src="assets/CMS 4.png" alt="CMS Screenshot 4">
+          </div>
+          
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+          <div class="dots"></div>
+        </div>
+
+        <p>
+          Desktop-based CMS with full CRUD operations and user authentication. Implemented MVC architecture and real-time data validation.
+        </p>
+        <div class="tag-row">
+          <span>Java</span><span>Swing</span><span>AWT</span><span>JDBC</span><span>MySQL</span>
+        </div>
+        <div class="card-actions">
+          <a class="btn btn-ghost" href="https://github.com/saadishaq2/Customer_Management_System">Code</a>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="card">
+        <h3 class="h3">Product Cart (eCommerce)</h3>
+
+        <div class="card-slider">
+          <div class="slides">
+            <img src="assets/cart 4.1.jpg" alt="Product Cart Screenshot 1">
+            <img src="assets/Cart 2.jpg" alt="Product Cart Screenshot 2">
+            <img src="assets/cart 3.jpg" alt="Product Cart Screenshot 3">
+            <img src="assets/Cart 1.png" alt="Product Cart Screenshot 4">
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+          <div class="dots"></div>
+        </div>
+
+        <p>
+          Mini eCommerce Product Cart to browse products, add to cart, and calculate total pricing dynamically. Demonstrates React concepts and state management.
+        </p>
+        <div class="tag-row">
+          <span>React.js</span><span>JavaScript(ES6)</span><span>HTML</span><span>CSS</span>
+        </div>
+        <div class="card-actions">
+          <a class="btn btn-ghost" href="https://github.com/saadishaq2/Product-Cart">Code</a>
+        </div>
+      </article>
+
+      <!-- Project 4 -->
+      <article class="card">
+        <h3 class="h3">Rock-Paper-Scissors Game</h3>
+
+        <div class="card-slider">
+          <div class="slides">
+            <img src="assets/RPS 1.1.gif" alt="RPS Screenshot 1">
+            <img src="assets/Rps 2.png" alt="RPS Screenshot 2">
+            <img src="assets/Rps 3.png" alt="RPS Screenshot 3">
+            <img src="assets/RPS 4.png" alt="RPS Screenshot 4">
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+          <div class="dots"></div>
+        </div>
+
+        <p>
+          Responsive RPS game with real-time gameplay, score tracking, and animations. Demonstrates JavaScript core concepts.
+        </p>
+        <div class="tag-row">
+          <span>JS</span><span>HTML</span><span>CSS</span>
+        </div>
+        <div class="card-actions">
+          <a class="btn btn-ghost" href="https://github.com/saadishaq2/RockPaperScissor">Code</a>
+        </div>
+      </article>
+
+      <!-- Project 5 -->
+      <article class="card">
+        <h3 class="h3">Tic-Tac-Toe Game</h3>
+
+        <div class="card-slider">
+          <div class="slides">
+            <img src="assets/TTT 1.1.png" alt="Tic Tac Toe Screenshot 1">
+            <img src="assets/TTT 2.png" alt="Tic Tac Toe Screenshot 2">
+            <img src="assets/RPS 1.jpg" alt="Tic Tac Toe Screenshot 3">
+            <img src="assets/TTT 4.png" alt="Tic Tac Toe Screenshot 4">
+          </div>
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+          <div class="dots"></div>
+        </div>
+
+        <p>
+          Browser-based two-player game with clean UI and efficient logic.
+        </p>
+        <div class="tag-row">
+          <span>JS</span><span>HTML</span><span>CSS</span>
+        </div>
+        <div class="card-actions">
+          <a class="btn btn-ghost" href="https://github.com/saadishaq2/TicTacToe">Code</a>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!--Education section-->
+
+<section id="education" class="section education">
+  <div class="container">
+    <h2 class="h2 center">Education</h2>
+
+    <div class="education-content">
+      <!-- Left side illustration -->
+      <div class="edu-illustration">
+        <img src="assets/education_illustartion-removebg-preview.png" alt="Education Illustration">
+      </div>
+
+      <!-- Right side degree info -->
+      <div class="edu-card">
+        <span class="edu-year center">2025</span>
+        <h3 class="edu-degree"><i class="fa-solid fa-graduation-cap"></i> Bachelor's of Software Engineering</h3>
+        <p class="edu-university">International Islamic University Islamabad</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Contact -->
+    <section class="contact-section" id="contact">
+      <div class="contact-container">
+        
+        <!-- Left: Contact Form -->
+        <div class="contact-form">
+          <h2>CONTACT WITH ME</h2>
+          <p>If you have any questions or concerns, please don't hesitate to contact me. 
+            I am open to any work opportunities that align with my skills and interests.
+          </p>
+          <form id="contactForm" onsubmit="event.preventDefault(); sendMail();">
+            <label>Your Name:</label>
+            <input type="text" id="name" name="name" required>
+  
+            <label>Your Email:</label>
+            <input type="email" id="email" name="email" required>
+  
+            <label>Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+  
+            <button type="submit" class="send-btn">
+              SEND MESSAGE <i class="fa-solid fa-paper-plane"></i>
+            </button>
+          </form>
+        </div>
+  
+        <!-- Right: Contact Info -->
+        <div class="contact-info">
+          <p><i class="fa-solid fa-envelope"></i> chsaadishaq857@gmail.com</p>
+          <p><i class="fa-solid fa-phone"></i> +923441530032</p>
+          <p><i class="fa-solid fa-location-dot"></i> Islamabad, Pakistan</p>
+  
+          <div class="social-icons">
+            <a href="mailto:chsaadishaq857@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://github.com/saadishaq2"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/saad-ishaq-web-developer/"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=61566272194692"><i class="fa-brands fa-facebook"></i></a>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Side label -->
+      <div class="side-label">CONTACT</div>
+    </section>
+   
+  
+  </main>
+  
+
+  <a class="wa-btn" href="https://wa.me/+923441530032" target="_blank" rel="noopener"
+     aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M19.11 17.43c-.27-.13-1.6-.79-1.85-.88-.25-.09-.43-.13-.62.14-.18.27-.71.88-.87 1.06-.16.18-.32.2-.59.07-.27-.13-1.14-.42-2.17-1.34-.8-.71-1.34-1.59-1.5-1.86-.16-.27-.02-.41.12-.54.12-.12.27-.32.41-.48.14-.16.18-.27.27-.45.09-.18.05-.34-.02-.48-.07-.13-.62-1.5-.85-2.05-.22-.53-.45-.46-.62-.46h-.53c-.18 0-.48.07-.73.34-.25.27-.96.94-.96 2.28s.99 2.65 1.13 2.83c.14.18 1.95 2.98 4.72 4.07.66.28 1.18.45 1.59.58.67.21 1.28.18 1.76.11.54-.08 1.6-.65 1.83-1.28.23-.63.23-1.18.16-1.28-.07-.1-.25-.16-.52-.29zM16.02 3C9.93 3 5 7.93 5 14.02c0 1.94.51 3.76 1.41 5.35L5 29l9.79-1.38a10.95 10.95 0 0 0 5.23 1.34c6.1 0 11.02-4.93 11.02-11.02C31.02 7.93 26.11 3 20.02 3zm0 19.85c-1.9 0-3.66-.55-5.14-1.49l-.37-.24-5.73.81.8-5.58-.25-.39a9.2 9.2 0 1 1 10.69 6.89z"/></svg>
+  </a>
+<!--Footer section-->
+  
+<!-- Footer -->
+<footer>
+  <span>© Developer Portfolio by </span>
+  <a href="https://www.linkedin.com/in/saad-ishaq-web-developer/" target="_blank">Saad Ishaq</a>
+
+  
+  <!-- Scroll-to-top Button -->
+  <button class="scroll-top" onclick="scrollToTop()">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7"/>
+    </svg>
+  </button>
+</footer>
+
+
+  <script src="script.js" defer></script>
+</body>
+</html>
+
+
+
