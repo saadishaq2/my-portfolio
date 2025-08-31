@@ -486,6 +486,7 @@ input::placeholder, textarea::placeholder{color:#8ea6d6}
   .edu-university{
     padding-left: 1rem;
    }
+<<<<<<< HEAD
    .footer {
     flex-direction: column;
     text-align: center;
@@ -496,6 +497,8 @@ input::placeholder, textarea::placeholder{color:#8ea6d6}
     right:30px; 
    margin-bottom: 1%; 
   }
+=======
+>>>>>>> 067af56133e87fed7186045bee6cefd1b61d87ae
 }
 @media (max-width: 640px){
   .nav-toggle{display:block}
@@ -557,18 +560,26 @@ input::placeholder, textarea::placeholder{color:#8ea6d6}
   .brand{
     font-size: 2.5rem;
   }
+<<<<<<< HEAD
   .wa-btn{
     right:30px; 
    margin-bottom: 1%; 
   }
   
 }
+=======
+
+>>>>>>> 067af56133e87fed7186045bee6cefd1b61d87ae
 /*Watsapp button Icon section */
 
 .wa-btn{
   position:fixed; 
   right:30px; 
+<<<<<<< HEAD
   bottom:120px; 
+=======
+  bottom:90px; 
+>>>>>>> 067af56133e87fed7186045bee6cefd1b61d87ae
   width:56px; 
   height:56px; 
   display:grid; 
@@ -620,7 +631,11 @@ footer a:hover {
 
 /* STAR text */
 .star {
+<<<<<<< HEAD
   position: fixed;
+=======
+  position: absolute;
+>>>>>>> 067af56133e87fed7186045bee6cefd1b61d87ae
   right: 110px;
   top: 50%;
   transform: translateY(-50%);
@@ -632,7 +647,11 @@ footer a:hover {
 }
 
 /* Scroll-to-top button */
+<<<<<<< HEAD
 /* .scroll-top {
+=======
+.scroll-top {
+>>>>>>> 067af56133e87fed7186045bee6cefd1b61d87ae
   position: absolute;
   right: 33px;
   top: 20%;
@@ -654,6 +673,7 @@ footer a:hover {
 .scroll-top svg {
   width: 20px;
   height: 25px;
+<<<<<<< HEAD
 } */
 .scroll-top {
   position: fixed;
@@ -678,6 +698,8 @@ footer a:hover {
 .scroll-top svg {
   width: 20px;
   height: 25px;
+=======
+>>>>>>> 067af56133e87fed7186045bee6cefd1b61d87ae
 }
 
 
